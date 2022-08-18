@@ -5,7 +5,7 @@ from flight_data import FlightData
 
 TEQUILA_URL = "https://tequila-api.kiwi.com/locations/query"
 TEQUILA_HEADER = {
-    "apikey": "zzmW1KYJVlHkPgo6H2qD0IcnLNaih4Qj"
+    "apikey": ""
 }
 TEQUILA_PARAMS = {
     "term": "",
@@ -67,7 +67,7 @@ class FlightSearch:
         # global TEQUILA_HEADER
         today = datetime.now()
         tequila_header = {
-            "apikey": "z7TXtAeZAlkHAFctag3xOKXaE-FNqQxQ"
+            "apikey": ""
         }
 
         tequila_params = {"fly_from": departure,
