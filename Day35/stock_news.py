@@ -9,15 +9,15 @@ delta: str
 STOCK_ENDPOINT = "https://www.alphavantage.co/query"
 NEWS_ENDPOINT = "https://newsapi.org/v2/everything"
 
-account_sid = "AC92b7d82fd44be3edb7e4ad6c8383d162"
-auth_token = "4285b1a12a6fc45567ec055552bcc6cc"
+account_sid = ""
+auth_token = ""
 
     ## STEP 1: Use https://www.alphavantage.co/documentation/#daily
 # When stock price increase/decreases by 5% between yesterday and the day before yesterday then print("Get News").
 stock_parameters = {
     "function": "TIME_SERIES_DAILY",
     "symbol": STOCK_NAME,
-    "apikey": "7R5F2EXY3YDPP5I9"
+    "apikey": ""
 }
 
 #TODO 1. - Get yesterday's closing stock price. Hint: You can perform list comprehensions on Python dictionaries. e.g. [new_value for (key, value) in dictionary.items()]
