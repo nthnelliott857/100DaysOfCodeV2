@@ -1,7 +1,7 @@
 import requests
 from pprint import pprint
 
-API_KEY = "598b3abafb89e98aabc3bcde425d6353"
+API_KEY = ""
 
 def get_movie():
     # params = {
@@ -9,7 +9,7 @@ def get_movie():
     #     "api_key": API_KEY
     # }
     headers = {
-        'Authorization': "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI1OThiM2FiYWZiODllOThhYWJjM2JjZGU0MjVkNjM1MyIsInN1YiI6IjYyZTRhNDgwNWIxMjQwMDA2MTlhNDc0YiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.bXIxDjrJHbQV43wpiv0f8uj03-7ZlzEtty3lgoI2yuI",
+        'Authorization': "",
         "Content-Type": "application/json;charset=utf-8"
     }
     # request = requests.get(url="https://api.themoviedb.org/3/movie/550?api_key=598b3abafb89e98aabc3bcde425d6353")
