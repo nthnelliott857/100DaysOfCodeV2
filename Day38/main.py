@@ -8,11 +8,11 @@ WEIGHT_KG = 88
 HEIGHT_CM = 177.8
 AGE = 26
 
-APP_ID = "f58d119b"
-API_KEY = "1593501b43a6c0d29d5d16bf2c21c63f"
+APP_ID = ""
+API_KEY = ""
 
-# APP_ID = os.environ["f58d119b"]
-# API_KEY = os.environ["1593501b43a6c0d29d5d16bf2c21c63f"]
+# APP_ID = os.environ[""]
+# API_KEY = os.environ[""]
 
 exercise_text = input("Which exercises did you do? ")
 
