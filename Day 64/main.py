@@ -10,10 +10,10 @@ import requests
 import sqlite3
 from pprint import pprint
 
-MOVIEDB_API_KEY = "598b3abafb89e98aabc3bcde425d6353"
+MOVIEDB_API_KEY = ""
 MOVIE_DB_SEARCH_URL = "https://api.themoviedb.org/3/search/movie"
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
+app.config['SECRET_KEY'] = ''
 Bootstrap(app)
 # db = sqlite3.connect("movies.db")
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///movies.db"
