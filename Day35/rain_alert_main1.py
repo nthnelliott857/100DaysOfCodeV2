@@ -2,16 +2,16 @@ import requests
 from datetime import datetime
 from twilio.rest import Client
 
-account_sid = "AC92b7d82fd44be3edb7e4ad6c8383d162"
-auth_token = "4285b1a12a6fc45567ec055552bcc6cc"
+account_sid = ""
+auth_token = ""
 
 
-api_key = "9f2189c421d46df5e4f65e1583d5d330"
+api_key = ""
 OWM_EndPoint = "https://api.openweathermap.org/data/2.5/onecall"
 parameters = {
     "lat": 47.423458,
     "lon": -120.310349,
-    "appid": "9f2189c421d46df5e4f65e1583d5d330",
+    "appid": "",
     "exclude": "current,minutely,daily"
 }
 
