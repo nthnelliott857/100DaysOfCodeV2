@@ -8,8 +8,8 @@ from spotipy.oauth2 import SpotifyClientCredentials
 from spotipy.oauth2 import SpotifyOAuth
 from pprint import pprint
 
-SPOTIPY_CLIENT_ID = "7db1a3c2990d482c8a50894a8b028aeb"
-CLIENT_SECRET = "54ebbe5f2f254d6c9553aff96929d6da"
+SPOTIPY_CLIENT_ID = ""
+CLIENT_SECRET = "a"
 SPOTIPY_REDIRECT_URI = "http://example.com"
 
 
